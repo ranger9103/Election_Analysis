@@ -1,26 +1,20 @@
 # Election_Analysis
 
-## Project Overview
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
+## Overview of Election Audit
+Determine the total votes cast for each candidate with percentage and the winning candidate. Also determine the county with the highest turnout with a listing of turnout and percentage per county.
 
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
 
-## Resources
--Data Source: election_results.csv
--Software: Python 3.6.1, Visual Studio Code, 1.38.1
+## Election-Audit Results
+-369,711 total votes cast in the congressional election.
+--10.5% (38,855) votes from Jefferson County
+--82.8% (306,055) votes from Denver County
+--6.7% (24,801) votes from Arapahoe County
+-Denver county had the largest number of votes
+--23.0% (85,213) votes for Charles Casper Stockham
+--73.8% (272,892) votes for Diana DeGette
+--3.1% (11,606) votes for Raymon Anthony Doane
+-Diana DeGette won the election
 
-## Summary
-The analysis of the election show that:
--There were 369,711 votes cast.
--The candidates who receieved votes were:
-    -Charles Casper Stockham with 85,213 and 23% of votes
-    -Diana DeGette with 272,892 and 73.8% of votes
-    -Raymon Anthony Doane with 11,606 and 3.1% of votes
+## Election-Audit Summary
+This format can be used for any future election as well with minimal maintenance. It is scalable to any results in a csv format with minor changes to the titles of the csv and folder structure. 
    
-## Challenge Overview
-
-## Challenge Summary
